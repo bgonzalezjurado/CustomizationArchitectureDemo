@@ -1,5 +1,5 @@
 # CustomizationArchitectureDemo
-App customization using frameworks developed with Swift 3.0, XCode 8.1, Podspec and CocoaPods
+App customization using frameworks developed with Swift 4.1, XCode 9.3.1, Podspec and Cocoapods
 
 The aim of this project is to be able to customize each target of this project with different external resources 
 (Audios, Autoresizing properties, Dimensions, Fonts, Images, Json, Positions, Swift classes and Videos). In this
