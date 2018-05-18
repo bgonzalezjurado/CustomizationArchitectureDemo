@@ -1,0 +1,27 @@
+{
+  "name": "FCBarcelonaResourcesPod",
+  "version": "1.0",
+  "summary": "Resources for FCBarcelona Target in CustomizationArchitectureDemo project",
+  "homepage": "https://github.com/",
+  "license": "MIT",
+  "source": {
+    "git": "https://github.com/bgonzalezjurado/FCBarcelonaResourcesPod.git",
+    "tag": ""
+  },
+  "authors": {
+    "bgonzalezjurado": ""
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  },
+  "source_files": "Classes/*.swift",
+  "resource_bundles": {
+    "FCBarcelonaResourcesPod": [
+      "**/*.{mp3,ttf,jpg,png,plist,3gp,json}"
+    ]
+  }
+}

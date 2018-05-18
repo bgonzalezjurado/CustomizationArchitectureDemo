@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Fonts</key>
+	<dict>
+		<key>FirstViewController</key>
+		<dict>
+			<key>CellField1FontName</key>
+			<string>FCBarcelona15-16byTranDuc.ttf</string>
+			<key>CellField1FontSize</key>
+			<integer>60</integer>
+			<key>CellField2FontName</key>
+			<string>FCBarcelona15-16byTranDuc.ttf</string>
+			<key>CellField2FontSize</key>
+			<integer>45</integer>
+			<key>CellTextFontName</key>
+			<string>FCBarcelona15-16byTranDuc.ttf</string>
+			<key>CellTextFontSize</key>
+			<integer>40</integer>
+			<key>TitleFontName</key>
+			<string>FCBarcelona15-16byTranDuc.ttf</string>
+			<key>TitleFontSize</key>
+			<integer>70</integer>
+			<key>TextFontName</key>
+			<string>FCBarcelona15-16byTranDuc.ttf</string>
+			<key>TextFontSize</key>
+			<integer>50</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

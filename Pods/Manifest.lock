@@ -1,0 +1,29 @@
+PODS:
+  - FCBarcelonaResourcesPod (1.0)
+  - RealMadridCFResourcesPod (1.0)
+
+DEPENDENCIES:
+  - FCBarcelonaResourcesPod (from `https://github.com/bgonzalezjurado/FCBarcelonaResourcesPod.git`)
+  - RealMadridCFResourcesPod (from `https://github.com/bgonzalezjurado/RealMadridCFResourcesPod.git`)
+
+EXTERNAL SOURCES:
+  FCBarcelonaResourcesPod:
+    :git: https://github.com/bgonzalezjurado/FCBarcelonaResourcesPod.git
+  RealMadridCFResourcesPod:
+    :git: https://github.com/bgonzalezjurado/RealMadridCFResourcesPod.git
+
+CHECKOUT OPTIONS:
+  FCBarcelonaResourcesPod:
+    :commit: bf2f430c94e654bb8be9098784b3b166427b45e2
+    :git: https://github.com/bgonzalezjurado/FCBarcelonaResourcesPod.git
+  RealMadridCFResourcesPod:
+    :commit: 490cb6d7918b0108b2f9d4e5b46a019162b56a84
+    :git: https://github.com/bgonzalezjurado/RealMadridCFResourcesPod.git
+
+SPEC CHECKSUMS:
+  FCBarcelonaResourcesPod: b8d925c53a9146d5aaabb4f48e4f24eac3e85fcc
+  RealMadridCFResourcesPod: 4fe4ffbaa76df84603d316630f4982f3ae0ecde4
+
+PODFILE CHECKSUM: fd095993ffeb70ca86714eaeb0ba37ca909a74e5
+
+COCOAPODS: 1.4.0

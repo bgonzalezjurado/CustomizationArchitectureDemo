@@ -1,0 +1,6 @@
+framework module FCBarcelonaResourcesPod {
+  umbrella header "FCBarcelonaResourcesPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

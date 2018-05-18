@@ -1,0 +1,1274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02753527B40DB654F05981181FA9092E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0C7C8AD7E85F3EB1266E1D85D77A0F7E /* ResourcesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02FC8D8B86D890A7B985250700F8384 /* ResourcesManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F8027E844D2EAEFC5ACF4BA4790AA91 /* FCBarcelona_anthem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35D11CDB8F4B2C7741A190183D3EC4B9 /* FCBarcelona_anthem.mp3 */; };
+		1397661FC6714051AECE6A796637B238 /* Frames.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3FB38DD4121FD0B0F337FC1602E5D2B /* Frames.plist */; };
+		14DF8475BE2FD025FF11B74F0633B03B /* FCBarcelona_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7679EA6979FC7C00751DFF4B066BD7D /* FCBarcelona_icon1.png */; };
+		15D3F347F9E07C2CAF0880EC2F440E06 /* FCBarcelonaResourcesPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A1F84FC9EC7B98C9732CF074473DAF /* FCBarcelonaResourcesPod-dummy.m */; };
+		1C731E26783008BB8E1EE38023E72731 /* Audios.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C29F9D5FD567CC56BBDFB1899C1A89 /* Audios.plist */; };
+		21984C740D1BE2E91CA01D72E12100D2 /* RealMadrid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4237B4762E68D2D7767C6142A5159EF /* RealMadrid-Regular.ttf */; };
+		23A60E8CC8EF8F4844A72AFA26C77078 /* Texts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E5FD691DC28F69D5F434AF404880272 /* Texts.plist */; };
+		2690DB560B4A43B2734C2F357BD76356 /* Pods-RealMadridCF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F19718398700B345B1DF45BD210A9AFC /* Pods-RealMadridCF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8EED58D532A5E012B1AD07187675B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		376F2EF91F7A518DE3B053964434D92D /* Fonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1D389A43A2856FA1D61687600294C9F /* Fonts.plist */; };
+		45F0BE9BF15A5B87C0D8394A47ED969B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4AA8F8D812B54F970C4E8F679FA0B6CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD78A8269FC01B852DD95BB0EAD72382 /* Constants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4B817D055A3E9077C81DEA2FBEDF039B /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CF6B8CF84DA6F15B62A55D032436443 /* Colors.plist */; };
+		500F002FCBA50944F19C65FAD230CDA6 /* RealMadridCFResourcesPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F94F27A1BC1E4864C20521A739FC3B /* RealMadridCFResourcesPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54655E6DE678CDD399EAD8C844B6168C /* FCBarcelona_tShirt1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A23BD42AF465C49C54EF61F414E5A /* FCBarcelona_tShirt1.jpg */; };
+		55BE4537BFAB9231A394EB3486D8F0A6 /* String+util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5E324C6F6CE2A02655A883E0C8E45 /* String+util.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55C52C0041320A3DD5F5DADEA83C3890 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92B68CFB188EBE2F3E8B28C89F12E3E5 /* Colors.plist */; };
+		64D3925932E15B6FE756875075CEC6F0 /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95F8F0F5E380BA7F07CD2A65B9145AA1 /* Videos.plist */; };
+		663A80C5FF33D7FA00C159507F219B4F /* RealMadridCF_topGoals.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 2C179BFF0FA2FB90A291482E4C57E0CA /* RealMadridCF_topGoals.3gp */; };
+		67155AE6B6EC8B558E1490A5162FD6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		68190207248593CAAFB9E2284A6916B7 /* RealMadridCFResourcesPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D81E87B9791CD2BA8EA2FF2D01FFAA8F /* RealMadridCFResourcesPod.bundle */; };
+		751B8258DBB75819F10C730E697EC098 /* FCBarcelona15-16byTranDuc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD7B58C2C2610DF51B25918507046D07 /* FCBarcelona15-16byTranDuc.ttf */; };
+		76411AC1DB868F6D1811D342505CAA10 /* RealMadridCF_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 47FD6B02481EB752E4CC97C42B852302 /* RealMadridCF_badge.png */; };
+		76D32FADE6E3E2161CC83A445C22DB7F /* Pods-FCBarcelona-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45833C5ED7FCC95A2F46BCF1604F1FB6 /* Pods-FCBarcelona-dummy.m */; };
+		784A7DB72930FE32C855C56100C1E615 /* Pods-RealMadridCF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F42A09F90E94FC8FE0D139C5ADDF /* Pods-RealMadridCF-dummy.m */; };
+		78660691DABAECE03E6F99D8292AA5F2 /* ResourcesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFDCC329167328017CF585DCC96E142 /* ResourcesManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B15C5535EB23AAD7E4CBA2D32EA8EF1 /* DictionaryKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB26E0AA0CD86580276A69512706B0E /* DictionaryKeyPath.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7DA111B6F62A527220743C58F2D9716F /* Texts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C633D8D036A130047849A9311EDC2B8 /* Texts.plist */; };
+		7E458BE4EE4763DB66BB6D66D9B3284E /* FCBarcelona_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 467AE9B54A9BB37A9BEF273F9CF4D8DA /* FCBarcelona_icon2.png */; };
+		80F424DBBEE86FC3C63421735FE7E944 /* DictionaryKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13698BF62E3BD2B758A2F8CE72A61A71 /* DictionaryKeyPath.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8316D344426C3B6FBC4AB30886EF0E45 /* Images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B9FC719E4AE3F8E9A10CF31AD55A223 /* Images.plist */; };
+		839F9962DCA1D886AB8C004E2735C3E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11C05CD1260313EC985148E1463D64 /* Constants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8EF911ADBC39A3B108B20CC44FFB898C /* Audios.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2E848428280F2BBC9C3E0DD0086A1BB /* Audios.plist */; };
+		A493A699BC82DF99341D89073ECEC391 /* RealMadridCF_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F94DCC82B6074FED6336C066198700 /* RealMadridCF_icon2.png */; };
+		A5C69A4769E22FC1831BC181428DCD08 /* FCBarcelonaResourcesPod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A23268DC520696898AF45B10A35249CA /* FCBarcelonaResourcesPod.bundle */; };
+		A5E13F26B1D58C20A9441CB97A02593F /* FCBarcelona_tShirt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86097B2C6BB8FBD1A5A9452D4E049F1C /* FCBarcelona_tShirt2.png */; };
+		AC9B2A2A129899ECA88D2A9E9C313580 /* RealMadridCF_tShirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFAABB631DD39147D59AD535C157CEE3 /* RealMadridCF_tShirt.jpg */; };
+		B728C49ABAF61C77E27E707DCC5C8B0A /* FCBarcelona_topGoals.3gp in Resources */ = {isa = PBXBuildFile; fileRef = BE2530A17D8CB196ED2F3459FB33196F /* FCBarcelona_topGoals.3gp */; };
+		BE210086724202F70E0A00F418FF182D /* Videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6304979E5953ECA4302E4BB4C4372EF0 /* Videos.plist */; };
+		C460E21AA0EA8F0A0229B9BB8BB00A31 /* RealMadridCF_icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF25B9B3DBB6D5D872735749BA5BE83 /* RealMadridCF_icon1.png */; };
+		C7230303637249A697B6D8A372C4082A /* RealMadridCFResourcesPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F903E8032AD8BAE119D274A6C6BE44 /* RealMadridCFResourcesPod-dummy.m */; };
+		CAB8B176580D830A87F623BCDE1FA34B /* AvailableFonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57CA0D55AF36E2AFD7B46A9A6D36A8EE /* AvailableFonts.plist */; };
+		D1D4049AAFE113715BCE431BCA61B93D /* Frames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794D2CE056F7A622A475BEA7A07D6A6A /* Frames.plist */; };
+		DF43061C48AB8FC69AB139F991C38583 /* Images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D01073B060B9B662C5FDD287512133 /* Images.plist */; };
+		E3957A49E24D963DDF5C4FD7B765D8D3 /* FCBarcelonaResourcesPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 277B7FC83CB9B39D67E87B9B05C6C119 /* FCBarcelonaResourcesPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E95EB81F70081942F930F2E40EDC319D /* RealMadridCF_anthem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5EC3C7BD864EE69EC11A816DE6CF1CA0 /* RealMadridCF_anthem.mp3 */; };
+		EA036AFC1DAF261B70010F83736EBF00 /* FCBarcelona_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = D29A4FD59FB70416D16F06339C0F122E /* FCBarcelona_badge.png */; };
+		ED1D3C6569F32DDDCCC72BC715035B49 /* String+util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090222357A5C3D75CF784EC74EFB03BA /* String+util.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F27FF98D506E93D9D9E1B227A1199434 /* Pods-FCBarcelona-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 607A0AD791C6EE593CFA35557B18F84C /* Pods-FCBarcelona-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F1CA6E51E1F8D375460D6254AF95D4 /* trophies.json in Resources */ = {isa = PBXBuildFile; fileRef = 645E0235174449593ADC6CE82832BA8E /* trophies.json */; };
+		FC2D0F55487C6BAF2C66E1731A592B3D /* AvailableFonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5075D934911715D1E80437A2C523CC60 /* AvailableFonts.plist */; };
+		FCF32ACB802139862580E8A015A7D9A2 /* trophies.json in Resources */ = {isa = PBXBuildFile; fileRef = B0170C4D2B60490EE4C3BBA4D89F0760 /* trophies.json */; };
+		FFFEE30762519C4BF2E2AC35A64AD48C /* Fonts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61AE9A7F4067CD6F9DF1073BAEC07DA2 /* Fonts.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E62D7B37F5DB48D0513E9F8CA2F24DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27A0C1774F7D64882CD52F4CD08580CF;
+			remoteInfo = FCBarcelonaResourcesPod;
+		};
+		70F07959E26DDDE048F075CDA9C2E98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E91C12A4A912F48C48531249A7D39C3;
+			remoteInfo = "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod";
+		};
+		D2B600EAD380EF52588FFA5C6CC939F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD339AA05DBA3464CD4A334E6F54C339;
+			remoteInfo = "RealMadridCFResourcesPod-RealMadridCFResourcesPod";
+		};
+		EC8AAD23F371D8C8F91503D1EF647051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E5BA43D2BB14A591686FA192D2E08E3;
+			remoteInfo = RealMadridCFResourcesPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D8488C8BB549B805B0BD6141DF3D5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04345F4726E17C0AAA75BB1C28405C5A /* Pods-FCBarcelona-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCBarcelona-acknowledgements.plist"; sourceTree = "<group>"; };
+		090222357A5C3D75CF784EC74EFB03BA /* String+util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+util.swift"; path = "Classes/String+util.swift"; sourceTree = "<group>"; };
+		13698BF62E3BD2B758A2F8CE72A61A71 /* DictionaryKeyPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryKeyPath.swift; path = Classes/DictionaryKeyPath.swift; sourceTree = "<group>"; };
+		1E5FD691DC28F69D5F434AF404880272 /* Texts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Texts.plist; path = Plists/Texts.plist; sourceTree = "<group>"; };
+		21F9F42A09F90E94FC8FE0D139C5ADDF /* Pods-RealMadridCF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RealMadridCF-dummy.m"; sourceTree = "<group>"; };
+		277B7FC83CB9B39D67E87B9B05C6C119 /* FCBarcelonaResourcesPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCBarcelonaResourcesPod-umbrella.h"; sourceTree = "<group>"; };
+		2C179BFF0FA2FB90A291482E4C57E0CA /* RealMadridCF_topGoals.3gp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = RealMadridCF_topGoals.3gp; path = Videos/RealMadridCF_topGoals.3gp; sourceTree = "<group>"; };
+		31D0FE477B4F1764F1D4890AB687B0AF /* Pods-FCBarcelona-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCBarcelona-resources.sh"; sourceTree = "<group>"; };
+		35D11CDB8F4B2C7741A190183D3EC4B9 /* FCBarcelona_anthem.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = FCBarcelona_anthem.mp3; path = Audios/FCBarcelona_anthem.mp3; sourceTree = "<group>"; };
+		3A79C9987717991BA3F9B83DAA505DA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB26E0AA0CD86580276A69512706B0E /* DictionaryKeyPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryKeyPath.swift; path = Classes/DictionaryKeyPath.swift; sourceTree = "<group>"; };
+		3E1A23BD42AF465C49C54EF61F414E5A /* FCBarcelona_tShirt1.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = FCBarcelona_tShirt1.jpg; path = Images/FCBarcelona_tShirt1.jpg; sourceTree = "<group>"; };
+		45833C5ED7FCC95A2F46BCF1604F1FB6 /* Pods-FCBarcelona-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCBarcelona-dummy.m"; sourceTree = "<group>"; };
+		467AE9B54A9BB37A9BEF273F9CF4D8DA /* FCBarcelona_icon2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FCBarcelona_icon2.png; path = Images/FCBarcelona_icon2.png; sourceTree = "<group>"; };
+		47FD6B02481EB752E4CC97C42B852302 /* RealMadridCF_badge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = RealMadridCF_badge.png; path = Images/RealMadridCF_badge.png; sourceTree = "<group>"; };
+		4A9F2F3139210B08A0C7C1A1B461687D /* Pods-RealMadridCF-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RealMadridCF-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F21411B60CAA347D7749D32906E36D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F252E62F22C20B8D9C987FA2A212363 /* Pods-RealMadridCF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealMadridCF.debug.xcconfig"; sourceTree = "<group>"; };
+		5075D934911715D1E80437A2C523CC60 /* AvailableFonts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = AvailableFonts.plist; path = Plists/AvailableFonts.plist; sourceTree = "<group>"; };
+		52D5E324C6F6CE2A02655A883E0C8E45 /* String+util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+util.swift"; path = "Classes/String+util.swift"; sourceTree = "<group>"; };
+		531E8B6E74DB39041EFBC5E8284F704C /* RealMadridCFResourcesPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealMadridCFResourcesPod-prefix.pch"; sourceTree = "<group>"; };
+		575258BF56EDA5C8D6C8BA1F4EBAB723 /* RealMadridCFResourcesPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RealMadridCFResourcesPod.modulemap; sourceTree = "<group>"; };
+		57CA0D55AF36E2AFD7B46A9A6D36A8EE /* AvailableFonts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = AvailableFonts.plist; path = Plists/AvailableFonts.plist; sourceTree = "<group>"; };
+		5EC3C7BD864EE69EC11A816DE6CF1CA0 /* RealMadridCF_anthem.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; name = RealMadridCF_anthem.mp3; path = Audios/RealMadridCF_anthem.mp3; sourceTree = "<group>"; };
+		607A0AD791C6EE593CFA35557B18F84C /* Pods-FCBarcelona-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCBarcelona-umbrella.h"; sourceTree = "<group>"; };
+		61AE9A7F4067CD6F9DF1073BAEC07DA2 /* Fonts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Fonts.plist; path = Plists/Fonts.plist; sourceTree = "<group>"; };
+		6304979E5953ECA4302E4BB4C4372EF0 /* Videos.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Videos.plist; path = Plists/Videos.plist; sourceTree = "<group>"; };
+		645E0235174449593ADC6CE82832BA8E /* trophies.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = trophies.json; path = Json/trophies.json; sourceTree = "<group>"; };
+		64A2A0D8A125BF7593F9A2ED8B2C6666 /* Pods-RealMadridCF-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealMadridCF-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70332964C7B2A9656794127B51C8F56A /* FCBarcelonaResourcesPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCBarcelonaResourcesPod-prefix.pch"; sourceTree = "<group>"; };
+		70D01073B060B9B662C5FDD287512133 /* Images.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Images.plist; path = Plists/Images.plist; sourceTree = "<group>"; };
+		75C29F9D5FD567CC56BBDFB1899C1A89 /* Audios.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Audios.plist; path = Plists/Audios.plist; sourceTree = "<group>"; };
+		794D2CE056F7A622A475BEA7A07D6A6A /* Frames.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Frames.plist; path = Plists/Frames.plist; sourceTree = "<group>"; };
+		7C0A7F81A47A40DA81AEB283B25E5098 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFDCC329167328017CF585DCC96E142 /* ResourcesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourcesManager.swift; path = Classes/ResourcesManager.swift; sourceTree = "<group>"; };
+		80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealMadridCFResourcesPod.xcconfig; sourceTree = "<group>"; };
+		86097B2C6BB8FBD1A5A9452D4E049F1C /* FCBarcelona_tShirt2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FCBarcelona_tShirt2.png; path = Images/FCBarcelona_tShirt2.png; sourceTree = "<group>"; };
+		8B9FC719E4AE3F8E9A10CF31AD55A223 /* Images.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Images.plist; path = Plists/Images.plist; sourceTree = "<group>"; };
+		8C633D8D036A130047849A9311EDC2B8 /* Texts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Texts.plist; path = Plists/Texts.plist; sourceTree = "<group>"; };
+		8CF6B8CF84DA6F15B62A55D032436443 /* Colors.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Colors.plist; path = Plists/Colors.plist; sourceTree = "<group>"; };
+		910611D9BBCD1A960C44DE9892FBA984 /* Pods-FCBarcelona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCBarcelona.release.xcconfig"; sourceTree = "<group>"; };
+		92B68CFB188EBE2F3E8B28C89F12E3E5 /* Colors.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Colors.plist; path = Plists/Colors.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F8F0F5E380BA7F07CD2A65B9145AA1 /* Videos.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Videos.plist; path = Plists/Videos.plist; sourceTree = "<group>"; };
+		95F903E8032AD8BAE119D274A6C6BE44 /* RealMadridCFResourcesPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealMadridCFResourcesPod-dummy.m"; sourceTree = "<group>"; };
+		9B948DA4D6A2688518A82B2675DBA5D1 /* RealMadridCFResourcesPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RealMadridCFResourcesPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23268DC520696898AF45B10A35249CA /* FCBarcelonaResourcesPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCBarcelonaResourcesPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A0E5D27FAFFCB286FFD0E2F18BFFDD /* Pods_FCBarcelona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCBarcelona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F67E85F470B5F6F346DAA6A477DC5B /* ResourceBundle-RealMadridCFResourcesPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RealMadridCFResourcesPod-Info.plist"; sourceTree = "<group>"; };
+		A9F94DCC82B6074FED6336C066198700 /* RealMadridCF_icon2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = RealMadridCF_icon2.png; path = Images/RealMadridCF_icon2.png; sourceTree = "<group>"; };
+		B0170C4D2B60490EE4C3BBA4D89F0760 /* trophies.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = trophies.json; path = Json/trophies.json; sourceTree = "<group>"; };
+		B02FC8D8B86D890A7B985250700F8384 /* ResourcesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourcesManager.swift; path = Classes/ResourcesManager.swift; sourceTree = "<group>"; };
+		B1D389A43A2856FA1D61687600294C9F /* Fonts.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Fonts.plist; path = Plists/Fonts.plist; sourceTree = "<group>"; };
+		B2E848428280F2BBC9C3E0DD0086A1BB /* Audios.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Audios.plist; path = Plists/Audios.plist; sourceTree = "<group>"; };
+		B61ADABCAA94EE6B2771AE54F632C1FD /* FCBarcelonaResourcesPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCBarcelonaResourcesPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB68C8ABAAE930F50CFF7FAD1A48CE2A /* Pods-FCBarcelona-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCBarcelona-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD78A8269FC01B852DD95BB0EAD72382 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Classes/Constants.swift; sourceTree = "<group>"; };
+		BE2530A17D8CB196ED2F3459FB33196F /* FCBarcelona_topGoals.3gp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FCBarcelona_topGoals.3gp; path = Videos/FCBarcelona_topGoals.3gp; sourceTree = "<group>"; };
+		BFAABB631DD39147D59AD535C157CEE3 /* RealMadridCF_tShirt.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = RealMadridCF_tShirt.jpg; path = Images/RealMadridCF_tShirt.jpg; sourceTree = "<group>"; };
+		C1A5A84B295C2392C47A0C123401824F /* Pods-RealMadridCF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RealMadridCF.release.xcconfig"; sourceTree = "<group>"; };
+		C2202BAD311E9BB13B464C6E6CDB44BD /* ResourceBundle-FCBarcelonaResourcesPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCBarcelonaResourcesPod-Info.plist"; sourceTree = "<group>"; };
+		C3FB38DD4121FD0B0F337FC1602E5D2B /* Frames.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Frames.plist; path = Plists/Frames.plist; sourceTree = "<group>"; };
+		CFF98A58B2C8D0AD5755C7FCB976038A /* Pods-FCBarcelona.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FCBarcelona.modulemap"; sourceTree = "<group>"; };
+		D27DBF0F009B00DB78172D2BD8256A24 /* Pods_RealMadridCF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealMadridCF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29A4FD59FB70416D16F06339C0F122E /* FCBarcelona_badge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FCBarcelona_badge.png; path = Images/FCBarcelona_badge.png; sourceTree = "<group>"; };
+		D4237B4762E68D2D7767C6142A5159EF /* RealMadrid-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "RealMadrid-Regular.ttf"; path = "Fonts/RealMadrid-Regular.ttf"; sourceTree = "<group>"; };
+		D7679EA6979FC7C00751DFF4B066BD7D /* FCBarcelona_icon1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = FCBarcelona_icon1.png; path = Images/FCBarcelona_icon1.png; sourceTree = "<group>"; };
+		D81E87B9791CD2BA8EA2FF2D01FFAA8F /* RealMadridCFResourcesPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMadridCFResourcesPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFAF539662C9A9612FA258C5F567C98 /* Pods-FCBarcelona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCBarcelona.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7B58C2C2610DF51B25918507046D07 /* FCBarcelona15-16byTranDuc.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "FCBarcelona15-16byTranDuc.ttf"; path = "Fonts/FCBarcelona15-16byTranDuc.ttf"; sourceTree = "<group>"; };
+		E0F94F27A1BC1E4864C20521A739FC3B /* RealMadridCFResourcesPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealMadridCFResourcesPod-umbrella.h"; sourceTree = "<group>"; };
+		E2EC44F8C65B3F45B93BD9F695B4544B /* Pods-RealMadridCF-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RealMadridCF-frameworks.sh"; sourceTree = "<group>"; };
+		E85FF691DDE6064C3719D3FA56D07BA6 /* Pods-FCBarcelona-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCBarcelona-frameworks.sh"; sourceTree = "<group>"; };
+		EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCBarcelonaResourcesPod.xcconfig; sourceTree = "<group>"; };
+		F0A1F84FC9EC7B98C9732CF074473DAF /* FCBarcelonaResourcesPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCBarcelonaResourcesPod-dummy.m"; sourceTree = "<group>"; };
+		F19718398700B345B1DF45BD210A9AFC /* Pods-RealMadridCF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RealMadridCF-umbrella.h"; sourceTree = "<group>"; };
+		F5080CC8287128D49A8223A71694E0F9 /* Pods-RealMadridCF-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RealMadridCF-acknowledgements.plist"; sourceTree = "<group>"; };
+		F596135103F60F05FD20203EB5FAF853 /* Pods-RealMadridCF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RealMadridCF.modulemap"; sourceTree = "<group>"; };
+		FAF25B9B3DBB6D5D872735749BA5BE83 /* RealMadridCF_icon1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = RealMadridCF_icon1.png; path = Images/RealMadridCF_icon1.png; sourceTree = "<group>"; };
+		FC11C05CD1260313EC985148E1463D64 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Classes/Constants.swift; sourceTree = "<group>"; };
+		FF6AAF910C9BF79C4B642492FBBD8DD2 /* FCBarcelonaResourcesPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FCBarcelonaResourcesPod.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F3735199F0CB97889B502C54D1043B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8EED58D532A5E012B1AD07187675B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73DE72348B56769B01969B5436F6FFCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0BE9BF15A5B87C0D8394A47ED969B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040CB040A1C677DE601BE99CAE4571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67155AE6B6EC8B558E1490A5162FD6CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBA76E4EA83CEF7EAC8782B775C6872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02753527B40DB654F05981181FA9092E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE7448ACC88EE88E974CF2CA54E0839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EEFA0BB29B2C1787EDEE43AE48BC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFE41BA5BEEBE71AE69421CD29E5024 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B9DD24AB26C31D8A9C3A87D600AB2C9 /* Pods-FCBarcelona */,
+				6720A13375B029DCCD25DD8F670BDD81 /* Pods-RealMadridCF */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		195096B818E9519D26B5A800D824E466 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A79C9987717991BA3F9B83DAA505DA5 /* Info.plist */,
+				575258BF56EDA5C8D6C8BA1F4EBAB723 /* RealMadridCFResourcesPod.modulemap */,
+				80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */,
+				95F903E8032AD8BAE119D274A6C6BE44 /* RealMadridCFResourcesPod-dummy.m */,
+				531E8B6E74DB39041EFBC5E8284F704C /* RealMadridCFResourcesPod-prefix.pch */,
+				E0F94F27A1BC1E4864C20521A739FC3B /* RealMadridCFResourcesPod-umbrella.h */,
+				A7F67E85F470B5F6F346DAA6A477DC5B /* ResourceBundle-RealMadridCFResourcesPod-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RealMadridCFResourcesPod";
+			sourceTree = "<group>";
+		};
+		27C46D1A6F8C1A05FC987AC54F5220AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7968B057BAF87D069A4F835BCA563D74 /* FCBarcelonaResourcesPod */,
+				F2909845827A2228C5552CE5711A62BD /* RealMadridCFResourcesPod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6720A13375B029DCCD25DD8F670BDD81 /* Pods-RealMadridCF */ = {
+			isa = PBXGroup;
+			children = (
+				7C0A7F81A47A40DA81AEB283B25E5098 /* Info.plist */,
+				F596135103F60F05FD20203EB5FAF853 /* Pods-RealMadridCF.modulemap */,
+				4A9F2F3139210B08A0C7C1A1B461687D /* Pods-RealMadridCF-acknowledgements.markdown */,
+				F5080CC8287128D49A8223A71694E0F9 /* Pods-RealMadridCF-acknowledgements.plist */,
+				21F9F42A09F90E94FC8FE0D139C5ADDF /* Pods-RealMadridCF-dummy.m */,
+				E2EC44F8C65B3F45B93BD9F695B4544B /* Pods-RealMadridCF-frameworks.sh */,
+				64A2A0D8A125BF7593F9A2ED8B2C6666 /* Pods-RealMadridCF-resources.sh */,
+				F19718398700B345B1DF45BD210A9AFC /* Pods-RealMadridCF-umbrella.h */,
+				4F252E62F22C20B8D9C987FA2A212363 /* Pods-RealMadridCF.debug.xcconfig */,
+				C1A5A84B295C2392C47A0C123401824F /* Pods-RealMadridCF.release.xcconfig */,
+			);
+			name = "Pods-RealMadridCF";
+			path = "Target Support Files/Pods-RealMadridCF";
+			sourceTree = "<group>";
+		};
+		7968B057BAF87D069A4F835BCA563D74 /* FCBarcelonaResourcesPod */ = {
+			isa = PBXGroup;
+			children = (
+				FC11C05CD1260313EC985148E1463D64 /* Constants.swift */,
+				3BB26E0AA0CD86580276A69512706B0E /* DictionaryKeyPath.swift */,
+				7CFDCC329167328017CF585DCC96E142 /* ResourcesManager.swift */,
+				52D5E324C6F6CE2A02655A883E0C8E45 /* String+util.swift */,
+				D74FE8A25F86408AC6E82B197D2383D0 /* Resources */,
+				A36519A7A7A43BF77F9C6CC0AE42A585 /* Support Files */,
+			);
+			path = FCBarcelonaResourcesPod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				27C46D1A6F8C1A05FC987AC54F5220AE /* Pods */,
+				8CAF920A4CB9BA268EDD11BA568F3FE4 /* Products */,
+				0DFE41BA5BEEBE71AE69421CD29E5024 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CAF920A4CB9BA268EDD11BA568F3FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23268DC520696898AF45B10A35249CA /* FCBarcelonaResourcesPod.bundle */,
+				B61ADABCAA94EE6B2771AE54F632C1FD /* FCBarcelonaResourcesPod.framework */,
+				A2A0E5D27FAFFCB286FFD0E2F18BFFDD /* Pods_FCBarcelona.framework */,
+				D27DBF0F009B00DB78172D2BD8256A24 /* Pods_RealMadridCF.framework */,
+				D81E87B9791CD2BA8EA2FF2D01FFAA8F /* RealMadridCFResourcesPod.bundle */,
+				9B948DA4D6A2688518A82B2675DBA5D1 /* RealMadridCFResourcesPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9DD24AB26C31D8A9C3A87D600AB2C9 /* Pods-FCBarcelona */ = {
+			isa = PBXGroup;
+			children = (
+				03D8488C8BB549B805B0BD6141DF3D5D /* Info.plist */,
+				CFF98A58B2C8D0AD5755C7FCB976038A /* Pods-FCBarcelona.modulemap */,
+				BB68C8ABAAE930F50CFF7FAD1A48CE2A /* Pods-FCBarcelona-acknowledgements.markdown */,
+				04345F4726E17C0AAA75BB1C28405C5A /* Pods-FCBarcelona-acknowledgements.plist */,
+				45833C5ED7FCC95A2F46BCF1604F1FB6 /* Pods-FCBarcelona-dummy.m */,
+				E85FF691DDE6064C3719D3FA56D07BA6 /* Pods-FCBarcelona-frameworks.sh */,
+				31D0FE477B4F1764F1D4890AB687B0AF /* Pods-FCBarcelona-resources.sh */,
+				607A0AD791C6EE593CFA35557B18F84C /* Pods-FCBarcelona-umbrella.h */,
+				DBFAF539662C9A9612FA258C5F567C98 /* Pods-FCBarcelona.debug.xcconfig */,
+				910611D9BBCD1A960C44DE9892FBA984 /* Pods-FCBarcelona.release.xcconfig */,
+			);
+			name = "Pods-FCBarcelona";
+			path = "Target Support Files/Pods-FCBarcelona";
+			sourceTree = "<group>";
+		};
+		A36519A7A7A43BF77F9C6CC0AE42A585 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6AAF910C9BF79C4B642492FBBD8DD2 /* FCBarcelonaResourcesPod.modulemap */,
+				EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */,
+				F0A1F84FC9EC7B98C9732CF074473DAF /* FCBarcelonaResourcesPod-dummy.m */,
+				70332964C7B2A9656794127B51C8F56A /* FCBarcelonaResourcesPod-prefix.pch */,
+				277B7FC83CB9B39D67E87B9B05C6C119 /* FCBarcelonaResourcesPod-umbrella.h */,
+				4F21411B60CAA347D7749D32906E36D0 /* Info.plist */,
+				C2202BAD311E9BB13B464C6E6CDB44BD /* ResourceBundle-FCBarcelonaResourcesPod-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCBarcelonaResourcesPod";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6647F46F7EBA6D6AD43C1FEB2805962 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2E848428280F2BBC9C3E0DD0086A1BB /* Audios.plist */,
+				57CA0D55AF36E2AFD7B46A9A6D36A8EE /* AvailableFonts.plist */,
+				92B68CFB188EBE2F3E8B28C89F12E3E5 /* Colors.plist */,
+				61AE9A7F4067CD6F9DF1073BAEC07DA2 /* Fonts.plist */,
+				794D2CE056F7A622A475BEA7A07D6A6A /* Frames.plist */,
+				70D01073B060B9B662C5FDD287512133 /* Images.plist */,
+				D4237B4762E68D2D7767C6142A5159EF /* RealMadrid-Regular.ttf */,
+				5EC3C7BD864EE69EC11A816DE6CF1CA0 /* RealMadridCF_anthem.mp3 */,
+				47FD6B02481EB752E4CC97C42B852302 /* RealMadridCF_badge.png */,
+				FAF25B9B3DBB6D5D872735749BA5BE83 /* RealMadridCF_icon1.png */,
+				A9F94DCC82B6074FED6336C066198700 /* RealMadridCF_icon2.png */,
+				2C179BFF0FA2FB90A291482E4C57E0CA /* RealMadridCF_topGoals.3gp */,
+				BFAABB631DD39147D59AD535C157CEE3 /* RealMadridCF_tShirt.jpg */,
+				8C633D8D036A130047849A9311EDC2B8 /* Texts.plist */,
+				B0170C4D2B60490EE4C3BBA4D89F0760 /* trophies.json */,
+				95F8F0F5E380BA7F07CD2A65B9145AA1 /* Videos.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D74FE8A25F86408AC6E82B197D2383D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75C29F9D5FD567CC56BBDFB1899C1A89 /* Audios.plist */,
+				5075D934911715D1E80437A2C523CC60 /* AvailableFonts.plist */,
+				8CF6B8CF84DA6F15B62A55D032436443 /* Colors.plist */,
+				DD7B58C2C2610DF51B25918507046D07 /* FCBarcelona15-16byTranDuc.ttf */,
+				35D11CDB8F4B2C7741A190183D3EC4B9 /* FCBarcelona_anthem.mp3 */,
+				D29A4FD59FB70416D16F06339C0F122E /* FCBarcelona_badge.png */,
+				D7679EA6979FC7C00751DFF4B066BD7D /* FCBarcelona_icon1.png */,
+				467AE9B54A9BB37A9BEF273F9CF4D8DA /* FCBarcelona_icon2.png */,
+				BE2530A17D8CB196ED2F3459FB33196F /* FCBarcelona_topGoals.3gp */,
+				3E1A23BD42AF465C49C54EF61F414E5A /* FCBarcelona_tShirt1.jpg */,
+				86097B2C6BB8FBD1A5A9452D4E049F1C /* FCBarcelona_tShirt2.png */,
+				B1D389A43A2856FA1D61687600294C9F /* Fonts.plist */,
+				C3FB38DD4121FD0B0F337FC1602E5D2B /* Frames.plist */,
+				8B9FC719E4AE3F8E9A10CF31AD55A223 /* Images.plist */,
+				1E5FD691DC28F69D5F434AF404880272 /* Texts.plist */,
+				645E0235174449593ADC6CE82832BA8E /* trophies.json */,
+				6304979E5953ECA4302E4BB4C4372EF0 /* Videos.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2909845827A2228C5552CE5711A62BD /* RealMadridCFResourcesPod */ = {
+			isa = PBXGroup;
+			children = (
+				BD78A8269FC01B852DD95BB0EAD72382 /* Constants.swift */,
+				13698BF62E3BD2B758A2F8CE72A61A71 /* DictionaryKeyPath.swift */,
+				B02FC8D8B86D890A7B985250700F8384 /* ResourcesManager.swift */,
+				090222357A5C3D75CF784EC74EFB03BA /* String+util.swift */,
+				D6647F46F7EBA6D6AD43C1FEB2805962 /* Resources */,
+				195096B818E9519D26B5A800D824E466 /* Support Files */,
+			);
+			path = RealMadridCFResourcesPod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		846B5A5A16995B73F8EAFF8EB8E2C224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2690DB560B4A43B2734C2F357BD76356 /* Pods-RealMadridCF-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A798D8AF90F41E1AE6D815149C17A632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27FF98D506E93D9D9E1B227A1199434 /* Pods-FCBarcelona-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC944A5DB4684875879426C1F445B59E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3957A49E24D963DDF5C4FD7B765D8D3 /* FCBarcelonaResourcesPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0653988F4F30B1128E03F33C3DE6B1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500F002FCBA50944F19C65FAD230CDA6 /* RealMadridCFResourcesPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27A0C1774F7D64882CD52F4CD08580CF /* FCBarcelonaResourcesPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9CC237B0027BF18D8F354C852F0F0A /* Build configuration list for PBXNativeTarget "FCBarcelonaResourcesPod" */;
+			buildPhases = (
+				44B2D18EA0EC9EEAE960D4A894D658E7 /* Sources */,
+				0F3735199F0CB97889B502C54D1043B5 /* Frameworks */,
+				66BEEF05E7F95D763C939DE0FCE21A01 /* Resources */,
+				AC944A5DB4684875879426C1F445B59E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D98D567F8EFE0697BB0FCC4A0E90618 /* PBXTargetDependency */,
+			);
+			name = FCBarcelonaResourcesPod;
+			productName = FCBarcelonaResourcesPod;
+			productReference = B61ADABCAA94EE6B2771AE54F632C1FD /* FCBarcelonaResourcesPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E5BA43D2BB14A591686FA192D2E08E3 /* RealMadridCFResourcesPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5097BF85A2E77660DA445E2132318623 /* Build configuration list for PBXNativeTarget "RealMadridCFResourcesPod" */;
+			buildPhases = (
+				410B28E87083C833363E87E6196CD12C /* Sources */,
+				92040CB040A1C677DE601BE99CAE4571 /* Frameworks */,
+				49D1871EB53C989939BCA4EC38CFA9C2 /* Resources */,
+				F0653988F4F30B1128E03F33C3DE6B1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F875C94F7DCAC46131C76A3BD87ED015 /* PBXTargetDependency */,
+			);
+			name = RealMadridCFResourcesPod;
+			productName = RealMadridCFResourcesPod;
+			productReference = 9B948DA4D6A2688518A82B2675DBA5D1 /* RealMadridCFResourcesPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E91C12A4A912F48C48531249A7D39C3 /* FCBarcelonaResourcesPod-FCBarcelonaResourcesPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C253B14B4C5CB6CCF0C2B961B2143172 /* Build configuration list for PBXNativeTarget "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod" */;
+			buildPhases = (
+				C64ED4DE34D8549071B0E08B2325EAFF /* Sources */,
+				CFE7448ACC88EE88E974CF2CA54E0839 /* Frameworks */,
+				4A17449751ABBE68763FDCC493588371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod";
+			productName = "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod";
+			productReference = A23268DC520696898AF45B10A35249CA /* FCBarcelonaResourcesPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		311FD9157EF4532F859834103DB65980 /* Pods-FCBarcelona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D857F95D36E8E1C93014393D6C251 /* Build configuration list for PBXNativeTarget "Pods-FCBarcelona" */;
+			buildPhases = (
+				58892B870DE6409BB685ED5CA4EBDE6E /* Sources */,
+				73DE72348B56769B01969B5436F6FFCF /* Frameworks */,
+				A798D8AF90F41E1AE6D815149C17A632 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB0B8D36AE40C8CB9854A603303B69C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FCBarcelona";
+			productName = "Pods-FCBarcelona";
+			productReference = A2A0E5D27FAFFCB286FFD0E2F18BFFDD /* Pods_FCBarcelona.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42C3EF143E3C1EA2747204058A5E32EF /* Pods-RealMadridCF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162B3F6D4F8AD6CCC8045494E25A09D1 /* Build configuration list for PBXNativeTarget "Pods-RealMadridCF" */;
+			buildPhases = (
+				04BC7F1712625CDD906E7CD91227E59C /* Sources */,
+				9BBA76E4EA83CEF7EAC8782B775C6872 /* Frameworks */,
+				846B5A5A16995B73F8EAFF8EB8E2C224 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A59F6A094CA50D6EFAACF591B46002 /* PBXTargetDependency */,
+			);
+			name = "Pods-RealMadridCF";
+			productName = "Pods-RealMadridCF";
+			productReference = D27DBF0F009B00DB78172D2BD8256A24 /* Pods_RealMadridCF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD339AA05DBA3464CD4A334E6F54C339 /* RealMadridCFResourcesPod-RealMadridCFResourcesPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482B1EA94182A5C844EA1CD92502B9A4 /* Build configuration list for PBXNativeTarget "RealMadridCFResourcesPod-RealMadridCFResourcesPod" */;
+			buildPhases = (
+				4C6AC55CE2FE643F8598304FE1219235 /* Sources */,
+				D9EEFA0BB29B2C1787EDEE43AE48BC07 /* Frameworks */,
+				DEF229093CC6C9CC553C52A2CFF3E6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RealMadridCFResourcesPod-RealMadridCFResourcesPod";
+			productName = "RealMadridCFResourcesPod-RealMadridCFResourcesPod";
+			productReference = D81E87B9791CD2BA8EA2FF2D01FFAA8F /* RealMadridCFResourcesPod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8CAF920A4CB9BA268EDD11BA568F3FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A0C1774F7D64882CD52F4CD08580CF /* FCBarcelonaResourcesPod */,
+				2E91C12A4A912F48C48531249A7D39C3 /* FCBarcelonaResourcesPod-FCBarcelonaResourcesPod */,
+				311FD9157EF4532F859834103DB65980 /* Pods-FCBarcelona */,
+				42C3EF143E3C1EA2747204058A5E32EF /* Pods-RealMadridCF */,
+				2E5BA43D2BB14A591686FA192D2E08E3 /* RealMadridCFResourcesPod */,
+				FD339AA05DBA3464CD4A334E6F54C339 /* RealMadridCFResourcesPod-RealMadridCFResourcesPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D1871EB53C989939BCA4EC38CFA9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68190207248593CAAFB9E2284A6916B7 /* RealMadridCFResourcesPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A17449751ABBE68763FDCC493588371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C731E26783008BB8E1EE38023E72731 /* Audios.plist in Resources */,
+				FC2D0F55487C6BAF2C66E1731A592B3D /* AvailableFonts.plist in Resources */,
+				4B817D055A3E9077C81DEA2FBEDF039B /* Colors.plist in Resources */,
+				751B8258DBB75819F10C730E697EC098 /* FCBarcelona15-16byTranDuc.ttf in Resources */,
+				0F8027E844D2EAEFC5ACF4BA4790AA91 /* FCBarcelona_anthem.mp3 in Resources */,
+				EA036AFC1DAF261B70010F83736EBF00 /* FCBarcelona_badge.png in Resources */,
+				14DF8475BE2FD025FF11B74F0633B03B /* FCBarcelona_icon1.png in Resources */,
+				7E458BE4EE4763DB66BB6D66D9B3284E /* FCBarcelona_icon2.png in Resources */,
+				B728C49ABAF61C77E27E707DCC5C8B0A /* FCBarcelona_topGoals.3gp in Resources */,
+				54655E6DE678CDD399EAD8C844B6168C /* FCBarcelona_tShirt1.jpg in Resources */,
+				A5E13F26B1D58C20A9441CB97A02593F /* FCBarcelona_tShirt2.png in Resources */,
+				376F2EF91F7A518DE3B053964434D92D /* Fonts.plist in Resources */,
+				1397661FC6714051AECE6A796637B238 /* Frames.plist in Resources */,
+				8316D344426C3B6FBC4AB30886EF0E45 /* Images.plist in Resources */,
+				23A60E8CC8EF8F4844A72AFA26C77078 /* Texts.plist in Resources */,
+				F9F1CA6E51E1F8D375460D6254AF95D4 /* trophies.json in Resources */,
+				BE210086724202F70E0A00F418FF182D /* Videos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BEEF05E7F95D763C939DE0FCE21A01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C69A4769E22FC1831BC181428DCD08 /* FCBarcelonaResourcesPod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF229093CC6C9CC553C52A2CFF3E6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF911ADBC39A3B108B20CC44FFB898C /* Audios.plist in Resources */,
+				CAB8B176580D830A87F623BCDE1FA34B /* AvailableFonts.plist in Resources */,
+				55C52C0041320A3DD5F5DADEA83C3890 /* Colors.plist in Resources */,
+				FFFEE30762519C4BF2E2AC35A64AD48C /* Fonts.plist in Resources */,
+				D1D4049AAFE113715BCE431BCA61B93D /* Frames.plist in Resources */,
+				DF43061C48AB8FC69AB139F991C38583 /* Images.plist in Resources */,
+				21984C740D1BE2E91CA01D72E12100D2 /* RealMadrid-Regular.ttf in Resources */,
+				E95EB81F70081942F930F2E40EDC319D /* RealMadridCF_anthem.mp3 in Resources */,
+				76411AC1DB868F6D1811D342505CAA10 /* RealMadridCF_badge.png in Resources */,
+				C460E21AA0EA8F0A0229B9BB8BB00A31 /* RealMadridCF_icon1.png in Resources */,
+				A493A699BC82DF99341D89073ECEC391 /* RealMadridCF_icon2.png in Resources */,
+				663A80C5FF33D7FA00C159507F219B4F /* RealMadridCF_topGoals.3gp in Resources */,
+				AC9B2A2A129899ECA88D2A9E9C313580 /* RealMadridCF_tShirt.jpg in Resources */,
+				7DA111B6F62A527220743C58F2D9716F /* Texts.plist in Resources */,
+				FCF32ACB802139862580E8A015A7D9A2 /* trophies.json in Resources */,
+				64D3925932E15B6FE756875075CEC6F0 /* Videos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BC7F1712625CDD906E7CD91227E59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784A7DB72930FE32C855C56100C1E615 /* Pods-RealMadridCF-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410B28E87083C833363E87E6196CD12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA8F8D812B54F970C4E8F679FA0B6CB /* Constants.swift in Sources */,
+				80F424DBBEE86FC3C63421735FE7E944 /* DictionaryKeyPath.swift in Sources */,
+				C7230303637249A697B6D8A372C4082A /* RealMadridCFResourcesPod-dummy.m in Sources */,
+				0C7C8AD7E85F3EB1266E1D85D77A0F7E /* ResourcesManager.swift in Sources */,
+				ED1D3C6569F32DDDCCC72BC715035B49 /* String+util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B2D18EA0EC9EEAE960D4A894D658E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839F9962DCA1D886AB8C004E2735C3E8 /* Constants.swift in Sources */,
+				7B15C5535EB23AAD7E4CBA2D32EA8EF1 /* DictionaryKeyPath.swift in Sources */,
+				15D3F347F9E07C2CAF0880EC2F440E06 /* FCBarcelonaResourcesPod-dummy.m in Sources */,
+				78660691DABAECE03E6F99D8292AA5F2 /* ResourcesManager.swift in Sources */,
+				55BE4537BFAB9231A394EB3486D8F0A6 /* String+util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6AC55CE2FE643F8598304FE1219235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58892B870DE6409BB685ED5CA4EBDE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D32FADE6E3E2161CC83A445C22DB7F /* Pods-FCBarcelona-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64ED4DE34D8549071B0E08B2325EAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A59F6A094CA50D6EFAACF591B46002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealMadridCFResourcesPod;
+			target = 2E5BA43D2BB14A591686FA192D2E08E3 /* RealMadridCFResourcesPod */;
+			targetProxy = EC8AAD23F371D8C8F91503D1EF647051 /* PBXContainerItemProxy */;
+		};
+		4D98D567F8EFE0697BB0FCC4A0E90618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod";
+			target = 2E91C12A4A912F48C48531249A7D39C3 /* FCBarcelonaResourcesPod-FCBarcelonaResourcesPod */;
+			targetProxy = 70F07959E26DDDE048F075CDA9C2E98E /* PBXContainerItemProxy */;
+		};
+		F875C94F7DCAC46131C76A3BD87ED015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RealMadridCFResourcesPod-RealMadridCFResourcesPod";
+			target = FD339AA05DBA3464CD4A334E6F54C339 /* RealMadridCFResourcesPod-RealMadridCFResourcesPod */;
+			targetProxy = D2B600EAD380EF52588FFA5C6CC939F1 /* PBXContainerItemProxy */;
+		};
+		FB0B8D36AE40C8CB9854A603303B69C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCBarcelonaResourcesPod;
+			target = 27A0C1774F7D64882CD52F4CD08580CF /* FCBarcelonaResourcesPod */;
+			targetProxy = 4E62D7B37F5DB48D0513E9F8CA2F24DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E7A99805F29806ECDF715398F2212F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F252E62F22C20B8D9C987FA2A212363 /* Pods-RealMadridCF.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RealMadridCF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealMadridCF/Pods-RealMadridCF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealMadridCF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FB4D62E99A5FE60C73E13894863DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCBarcelonaResourcesPod/FCBarcelonaResourcesPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCBarcelonaResourcesPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCBarcelonaResourcesPod/FCBarcelonaResourcesPod.modulemap";
+				PRODUCT_NAME = FCBarcelonaResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D5945547B29C9B7756DA36BA57AAB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RealMadridCFResourcesPod";
+				INFOPLIST_FILE = "Target Support Files/RealMadridCFResourcesPod/ResourceBundle-RealMadridCFResourcesPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = RealMadridCFResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1F66144F55FC5EF2F0A46FEB8D108381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCBarcelonaResourcesPod/FCBarcelonaResourcesPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCBarcelonaResourcesPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCBarcelonaResourcesPod/FCBarcelonaResourcesPod.modulemap";
+				PRODUCT_NAME = FCBarcelonaResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6706E7EF9A5CB598781CB1758A71047C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A5A84B295C2392C47A0C123401824F /* Pods-RealMadridCF.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RealMadridCF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RealMadridCF/Pods-RealMadridCF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RealMadridCF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68E2192A339A4DFBCF7C8D30C071399F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RealMadridCFResourcesPod/RealMadridCFResourcesPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealMadridCFResourcesPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealMadridCFResourcesPod/RealMadridCFResourcesPod.modulemap";
+				PRODUCT_NAME = RealMadridCFResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A057780BBA31A49AEA4359E6A934AAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCBarcelonaResourcesPod";
+				INFOPLIST_FILE = "Target Support Files/FCBarcelonaResourcesPod/ResourceBundle-FCBarcelonaResourcesPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = FCBarcelonaResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AAC4D2310CE159F54477E62DC0B94EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFAF539662C9A9612FA258C5F567C98 /* Pods-FCBarcelona.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCBarcelona/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCBarcelona/Pods-FCBarcelona.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCBarcelona;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3ED6952F72F624F65D5FAF4434508FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RealMadridCFResourcesPod";
+				INFOPLIST_FILE = "Target Support Files/RealMadridCFResourcesPod/ResourceBundle-RealMadridCFResourcesPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = RealMadridCFResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CC71A2094254D3BC854BCC5B91FEDB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80953B27EDA23A206CF34F2370A67CA6 /* RealMadridCFResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RealMadridCFResourcesPod/RealMadridCFResourcesPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RealMadridCFResourcesPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RealMadridCFResourcesPod/RealMadridCFResourcesPod.modulemap";
+				PRODUCT_NAME = RealMadridCFResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6A5B3BF8586BE5ED4EDDE609A70C22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910611D9BBCD1A960C44DE9892FBA984 /* Pods-FCBarcelona.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCBarcelona/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCBarcelona/Pods-FCBarcelona.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FCBarcelona;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F530D0A24D6822E03377D300A94780D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6F3031A1761ACDD844598B8D80263E /* FCBarcelonaResourcesPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCBarcelonaResourcesPod";
+				INFOPLIST_FILE = "Target Support Files/FCBarcelonaResourcesPod/ResourceBundle-FCBarcelonaResourcesPod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = FCBarcelonaResourcesPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9CC237B0027BF18D8F354C852F0F0A /* Build configuration list for PBXNativeTarget "FCBarcelonaResourcesPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F66144F55FC5EF2F0A46FEB8D108381 /* Debug */,
+				0FB4D62E99A5FE60C73E13894863DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162B3F6D4F8AD6CCC8045494E25A09D1 /* Build configuration list for PBXNativeTarget "Pods-RealMadridCF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E7A99805F29806ECDF715398F2212F6 /* Debug */,
+				6706E7EF9A5CB598781CB1758A71047C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482B1EA94182A5C844EA1CD92502B9A4 /* Build configuration list for PBXNativeTarget "RealMadridCFResourcesPod-RealMadridCFResourcesPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D5945547B29C9B7756DA36BA57AAB23 /* Debug */,
+				B3ED6952F72F624F65D5FAF4434508FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5097BF85A2E77660DA445E2132318623 /* Build configuration list for PBXNativeTarget "RealMadridCFResourcesPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC71A2094254D3BC854BCC5B91FEDB5C /* Debug */,
+				68E2192A339A4DFBCF7C8D30C071399F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D857F95D36E8E1C93014393D6C251 /* Build configuration list for PBXNativeTarget "Pods-FCBarcelona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC4D2310CE159F54477E62DC0B94EA9 /* Debug */,
+				D6A5B3BF8586BE5ED4EDDE609A70C22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C253B14B4C5CB6CCF0C2B961B2143172 /* Build configuration list for PBXNativeTarget "FCBarcelonaResourcesPod-FCBarcelonaResourcesPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F530D0A24D6822E03377D300A94780D5 /* Debug */,
+				A057780BBA31A49AEA4359E6A934AAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

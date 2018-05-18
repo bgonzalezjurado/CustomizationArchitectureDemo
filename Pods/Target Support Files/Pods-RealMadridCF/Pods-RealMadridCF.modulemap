@@ -1,0 +1,6 @@
+framework module Pods_RealMadridCF {
+  umbrella header "Pods-RealMadridCF-umbrella.h"
+
+  export *
+  module * { export * }
+}

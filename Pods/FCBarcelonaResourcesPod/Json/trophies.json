@@ -1,0 +1,55 @@
+{
+    "trophies":[
+                {"name": "Copa de Europa",
+                "number": "5"
+                },{
+                "name": "Copa Mundial de Clubs de la FIFA",
+                "number": "3"
+                },{
+                "name": "Recopa de Europa",
+                "number": "4"
+                },{
+                "name": "Copa de Ferias",
+                "number": "3"
+                },{
+                "name": "Supercopa de Europa",
+                "number": "5"
+                },{
+                "name": "Copa Latina",
+                "number": "2"
+                },{
+                "name": "Copa de los Pirineos",
+                "number": "4"
+                },{
+                "name": "Liga",
+                "number": "24"
+                },{
+                "name": "Copa del Rey",
+                "number": "28"
+                },{
+                "name": "Supercopa de España",
+                "number": "12"
+                },{
+                "name": "Copa de la Liga",
+                "number": "2"
+                },{
+                "name": "Liga Mediterránea",
+                "number": "1"
+                },{
+                "name": "Liga Catalana",
+                "number": "1"
+                },{
+                "name": "Campeonato de Catalunya",
+                "number": "5"
+                },{
+                "name": "Supercopa Catalunya",
+                "number": "1"
+                },{
+                "name": "Copa Catalunya",
+                "number": "8"
+                },{
+                "name": "Copa Eva Duarte",
+                "number": "3"
+                }
+                ]
+}
